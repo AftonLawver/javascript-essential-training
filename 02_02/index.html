@@ -4,7 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Module demo</title>
-    <script src="script.js"></script>
+    /* Always load javascript files in the head tag.
+    Always use either async or defer to control when
+    the javascript is loaded.
+    Async: it will download the javascript file while
+    the browser parses through the html document and
+    it will only pause the browser rendering when it executes
+    the javascript.
+    Defer: downloads the javascript file while
+    parsing through the html document, and then
+    executes it after entire html document is read.
+    */
+    <script src="script.js" defer></script>
   </head>
   <body></body>
 </html>
